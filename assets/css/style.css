@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+	background-color: #eee !important;
+	margin: 0;
+}
+
+/*******************************************
+
+                  HEADER
+
+********************************************/
+.cabecalho {
+	display: flex;
+	height: 100px;
+	margin: 0;
+	margin-top: 20px;
+	background-color: #000099;
+	border: 1px solid #000099 ;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.cabecalho img {
+	height: 83px;
+	width: 85px;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-top: 9px;
+}
+
+.cabecalho h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 60px;
+	margin: 0;
+	color: #fff;
+	position:relative;
+	top: 30px;
+	left: 30px;
+}
+
+.cabecalho h3 {
+	font-family: 'Merriweather', serif;
+	color: #fff;
+}
+
+.barra {
+	height: 39px;
+	background-color: #00004d;
+}
+
+.barra h4 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 20px;
+	color: #fff;
+	text-align: right;
+	position: relative;
+	right: 126px;
+	top: 7px;
+}
+
+.barra button {
+	font-family: 'Merriweather', serif;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #005580;
+	width: 70px;
+	height: 35px;
+	position: relative;
+	bottom: 30px;
+	left: 995px;
+}
+
+.acesso {
+	display: flex;
+	height: 55px;
+	background-color: #00004d;
+}
+
+.acesso h5 {
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	position: relative;
+	top: 15px;
+	left: 45px;
+}
+
+.acesso .btn {
+	font-family: 'Merriweather', serif;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #005580;
+	width: 100px;
+	height: 40px;
+	position: relative;
+	left: 300px;
+	top: 8px;
+}
+
+.edit-div {
+	background-color: #e3f2fd;
+	height: 55px;
+	margin-bottom: 30px;
+	box-shadow: -1px 14px 11px -11px rgba(0,0,0,0.75);
+}
+
+/*******************************************
+
+                  NAV
+
+********************************************/
+.menu {
+	display: flex;
+	font-family: 'Merriweather', serif;
+	background-color: #e3f2fd;
+	box-shadow: -1px 14px 11px -11px rgba(0,0,0,0.75);
+}
+
+.menu li a {
+	text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu a:hover {
+    color: #fff !important;
+    background-color:#009999;
+    text-decoration:underline;
+    padding: 7px 2px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.menu .nav-tabs {
+    border-bottom: none!important;
+}
+
+.navbar a {
+	color: #000099;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar-brand-titulo {
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.separador {
+	color: #000099;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 7px;
+	margin-left: -7px;
+	margin-bottom: 4px;	
+}
+
+.fa-arrow-circle-left {
+	font-size: 45px;
+	color: #00004d;
+	float: right;
+	position: relative;
+	bottom: 52px;
+	right: 55px; 
+}
+
+.back-arrow-edit {
+	position: relative;
+	top: 4px;
+}
+
+/*******************************************
+
+                  MAIN
+
+********************************************/
+.carousel-item h5, p {
+	font-family: 'Merriweather', serif;
+	color: #00004d;
+}
+
+.carousel-item p {
+	margin: 0px;
+	font-size: 17px;
+}
+
+.carousel-item h5 {
+	font-size: 43px;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: #fff;	
+}
+
+#carouselExampleCaptions {
+	box-shadow: -1px 14px 11px -11px rgba(0,0,0,0.75);
+}
+
+.tab-content {
+	margin-top: 30px;
+}
+
+.tab-content h3 {
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	position: relative;
+	top: 5px;
+}
+
+.tab-content input, label, h3 {
+	margin-left: 30px;
+}
+
+.tab-content label {
+	font-family: 'Merriweather', serif;
+	color: #00004d;
+	margin-top: 8px;
+}
+
+.tab-content button {
+	font-family: 'Merriweather', serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	background-color: #005580;
+	border: 1px solid #005580;
+}
+
+.tab-pane {
+	border: 3px solid #00004d;
+	background: #e3f2fd;
+	border-radius: 10px;
+}
+
+.campos-movimentacao {
+	background-color: #cfe9fc;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.campos-movimentacao h4 {
+	font-family: 'Merriweather', serif;
+	color: #00004d;
+	margin-left: 33px;
+	position: relative;
+	top: 10px;
+}
+
+.tab-titulo {
+	background-color: #00004d;
+	padding: 6px;
+}
+
+.form-control {
+	border: 1px solid #00004d !important;
+}
+
+.form-group select {
+	width: 107%;
+	margin-left: 18px;
+}
+
+.tabela {
+	margin-bottom: 10px;
+}
+
+.lista {
+	background-color: #005580;
+	height: 50px;
+	margin-top: 10px;
+	border: 1px solid #005580;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;	
+}
+
+.lista h3 {
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	margin-bottom: 30px;
+	position: relative;
+	top: 10px;
+	right: 16px;
+}
+
+.delete {
+	float: right;
+	position: relative;
+	top: -11px;
+	font-size: 24px;
+	cursor: pointer;
+} 
+
+.table-bordered td {
+	border: 1.5px solid #000 !important;
+}
+
+.table td img {
+	height: 30px !important;
+	width: 30px !important;
+	margin-left: 22px;
+	cursor: pointer;
+}
+
+.alterar-campos input {
+	padding-left: 20px;
+}
+
+.alterar-campos button {
+	font-family: 'Merriweather', serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	background-color: #005580;
+	border: 1px solid #005580;
+}
+
+.alterar-campos {
+	margin-top: 30px;
+}
+
+.alterar-campos h3 {
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	position: relative;
+	top: 5px;
+}
+
+.alterar-campos input, label, h3 {
+	margin-left: 30px;
+}
+
+.alterar-campos label {
+	font-family: 'Merriweather', serif;
+	color: #00004d;
+	margin-top: 8px;
+}
+
+.alterar-campos button {
+	font-family: 'Merriweather', serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	background-color: #005580;
+	border: 1px solid #005580;
+}
+
+.error {
+	color: red;
+}
+
+@media (max-width: 700px) {
+	.cabecalho h2 {
+		font-size: 30px;
+	}
+}

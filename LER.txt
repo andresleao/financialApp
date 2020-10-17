@@ -1,0 +1,4 @@
+1 - Crie um banco com o nome: financialdb
+
+2 - Rodar o script "financialdb.sql" para utilizar a aplicação.
+
